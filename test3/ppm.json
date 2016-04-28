@@ -1,0 +1,7 @@
+{
+	"bootstrap": "\\PHPPM\\Bootstraps\\Symfony",
+	"bridge": "HttpKernel",
+	"appenv": "prod",
+	"workers": 4,
+	"port": 5501
+}

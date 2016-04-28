@@ -1,0 +1,26 @@
+upstream backend  {
+    server 127.0.0.1:5501;
+    server 127.0.0.1:5502;
+    server 127.0.0.1:5503;
+    server 127.0.0.1:5504;    
+}
+
+server {
+    root /home/siarhei/www/test/php/symfony-react/test3/web/;
+    server_name fastapp.com;
+
+    error_log /home/siarhei/www/test/php/symfony-react/test3/logs/error.log
+
+    location / {
+                # try to serve file directly, fallback to rewrite
+                try_files $uri @rewriteapp;
+        }
+
+        location @rewriteapp {
+                if (!-f $request_filename) {
+                        proxy_pass http://backend;
+                        break;
+                }
+        }
+}
+
