@@ -47,6 +47,7 @@ Min: 5
 Max: 360
 Throughput: 272.3/sec
 ```
+
 3 test:
 ```
 Avegae: 243
@@ -71,4 +72,47 @@ Max: 412
 Throughput: 294.2/sec
 ```
 
+**ReactPHP tests:**  
+
+1 test:
+```
+Avegae: 11
+Min: 1
+Max: 69
+Throughput: 342.8/sec
+```
+
+2 test:
+```
+Avegae: 9
+Min: 1
+Max: 92
+Throughput: 369.4/sec
+```
+
+3 test:
+```
+Avegae: 7
+Min: 1
+Max: 63
+Throughput: 363.4/sec
+```
+
+4 test:
+```
+Avegae: 9
+Min: 1
+Max: 75
+Throughput: 356.4/sec
+```
+
+5 test:
+```
+Avegae: 8
+Min: 1
+Max: 75
+Throughput: 354.8/sec
+```
+
+Notice: I am not sure if it is possible at all to have a responce in 1 milisecond.
 
