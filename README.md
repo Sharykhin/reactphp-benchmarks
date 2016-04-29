@@ -26,6 +26,13 @@ http {
 
 ```
 
+php-fpm:  
+```
+max_requests: 1000
+```
+
+
+
 **Backed configuration:**  
 PHP 7.0  
 Symfony 2.8  
