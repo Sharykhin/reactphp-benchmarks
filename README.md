@@ -134,3 +134,12 @@ Throughput: 354.8/sec
 
 Notice: I am not sure if it is possible at all to have a responce in 1 milisecond.
 
+Here is Apache JMeter configuraton, where all this data was taken from.
+
+Feel free to make any remarks or notices, because obviously it's just surface testing. And I am going to run stress test on independen machine for a while, let's assume, for a week.
+
+**Contacts:**
+email: *chapal@inbox.ru*  
+skype: *chapal_87*
+
+
