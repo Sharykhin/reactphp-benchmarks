@@ -138,7 +138,7 @@ Here is Apache JMeter configuraton, where all this data was taken from.
 
 Feel free to make any remarks or notices, because obviously it's just surface testing. And I am going to run stress test on independen machine for a while, let's assume, for a week.
 
-**Contacts:**
+**Contacts:**  
 email: *chapal@inbox.ru*  
 skype: *chapal_87*
 
