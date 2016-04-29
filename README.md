@@ -135,7 +135,9 @@ Max: 75
 Throughput: 354.8/sec
 ```
 
-Notice: I am not sure if it is possible at all to have a responce in 1 milisecond.
+**Notice:** I am not sure if it is possible at all to have a responce in 1 milisecond.
+
+**Notice:** Despite that fact that there were run 4 instancies of reactphp, CPU usage was less than in Nginx case.  
 
 Here is Apache JMeter configuraton, where all this data was taken from.
 
