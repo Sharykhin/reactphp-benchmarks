@@ -1,10 +1,10 @@
 Compare ReactPHP and Nginx:
 --------------------------
-**Server configuration**  
+**Server configuration:**  
 CPU: 4  
 Memory 16 GB Ram  
 
-**Test Plan**  
+**Test Plan:**  
 Users - *1000*  
 Ream-Up - *5*  
 Loop - *2*  
@@ -26,13 +26,13 @@ http {
 
 ```
 
-**Backed configuration**  
+**Backed configuration:**  
 PHP 7.0  
 Symfony 2.8  
 env=prod  
 
 
-**Installation**  
+**Installation:**  
 
 There are several symfony projecs, and it may be surptising nodejs project, but let's leave it aside for a moment.
 Pay your attention to **nginx** symfony project and **reactphp** because the server of reactphp project was writtern customly without any third-party libraries as in jogaram-react-bundle or php-pm projects.  
@@ -52,7 +52,7 @@ Of couse each instance must be launc in separate terminal.
 
 
 
-**Nginx tests:**
+**Nginx tests:**  
 1 test:
 ```
 Avegae: 190
