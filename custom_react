@@ -1,0 +1,26 @@
+upstream backend_react  {
+    server 127.0.0.1:1337;
+    server 127.0.0.1:1338;
+    server 127.0.0.1:1339;
+    server 127.0.0.1:1340;    
+}
+
+server {
+    root /home/siarhei/www/test/php/symfony-react/reactphp/web/;
+    server_name fastapp_react.com;
+
+    #error_log /home/siarhei/www/test/php/symfony-react/php-pm/logs/error.log
+
+    location / {
+                # try to serve file directly, fallback to rewrite
+                try_files $uri @rewriteapp;
+        }
+
+        location @rewriteapp {
+                if (!-f $request_filename) {
+                        proxy_pass http://backend_react;
+                        break;
+                }
+        }
+}
+

@@ -1,5 +1,6 @@
 .idea
-test1/vendor
-test2/vendor
-test3/vendor
+jogaram-react-bundle/vendor
+reactphp/vendor
+php-pm/vendor
+reactphp/vendor
 node-express/node_modules

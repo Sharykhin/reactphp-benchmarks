@@ -7,9 +7,9 @@ server {
     #server_name letshaveagoodtime.com;    
  
     # Document root, make sure this points to your Symfony2 /web directory
-    root /home/siarhei/www/test/php/symfony-react/test2/web;
+    root /home/siarhei/www/test/php/symfony-react/nginx/web;
     
-    #error_log /home/siarhei/www/test/php/symfony-react/test2/logs/error.log;
+    #error_log /home/siarhei/www/test/php/symfony-react/nginx/logs/error.log;
     #error_log off;
     #access_log off;
  
