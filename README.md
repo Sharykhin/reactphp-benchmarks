@@ -31,6 +31,24 @@ PHP 7.0
 Symfony 2.8  
 env=prod  
 
+
+**Installation**
+There are several symfony projecs, and it may be surptising nodejs project, but let's leave it aside for a moment.
+Pay your attention to **nginx** symfony project and **reactphp** because the server of reactphp project was writtern customly without any third-party libraries as in jogaram-react-bundle or php-pm projects.  
+
+For nginx just put configuration into approprtiate nginx folder and change your paths, keep in mind, that default nginx project listens 8000 port.  
+
+For reactphp projects move nginx configuration to approptiate folder, here is nginx is mostrly load-balancer. Create row in hosts file for server name, in our case it is fastapp_react.com. Open terminal and launch 4 instancies
+```
+php bin/react.php --port=1337
+php bin/react.php --port=1338
+php bin/react.php --port=1339
+php bin/react.php --port=1340
+```
+Of couse each instance must be launc in separate terminal.  
+
+
+
 **Nginx tests:**
 1 test:
 ```
