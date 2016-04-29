@@ -26,6 +26,49 @@ http {
 
 ```
 
+**Backed configuration**  
+PHP 7.0  
+Symfony 2.8  
+env=prod  
 
+**Nginx tests:**
+1 test:
+```
+Avegae: 190
+Min: 6
+Max: 542
+Throughput: 282.0/sec
+```
+
+2 test:
+```
+Avegae: 96
+Min: 5
+Max: 360
+Throughput: 272.3/sec
+```
+3 test:
+```
+Avegae: 243
+Min: 1 (502 error)
+Max: 717
+Throughput: 299.8/sec
+```
+
+4 test:
+```
+Avegae: 105
+Min: 6
+Max: 385
+Throughput: 293.6/sec
+```
+
+5 test:
+```
+Avegae: 178
+Min: 7
+Max: 412
+Throughput: 294.2/sec
+```
 
 
